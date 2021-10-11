@@ -1,30 +1,30 @@
-# Mon premier titre
-## Premier sous-titre
-### Sous sous-titre
+## Creer un repository local : 
+git init
 
-+ Premier element
-+ Dexuieme element
+## Suivre un fichier à enregistrer  :
+git add *
 
-1. Premier element
-2. Deuxieme element
+## Enregistrer l'état des fichiers :
+git commit -m "message"
 
-**Texte en gras**
+## Pousser les modifications au repo distant : 
+git push
 
-*Texte en italique*
+## Voir l'état actuel des modifications : 
+git status
 
----
+## Récupère l'état actuel du repo distant :
+git pull
 
-``` java
-int a = 12
+## Connexion au repo distant : 
+git remote add origin *origine* 
+git remote remove origin
 
-```
+## Voir les derniers commits : 
+git log
 
-|nom|prenom|age|
-|----|----|---|
-|Vossough|adrien|40
+## Revenir à un commit précédent : 
+git reset --hard *hash_du_commit* 
 
-modification
-
-[Aller vers Google](http://google.com)
-
-![Mon image]()
+## Anuler le suivi d'un fichier : 
+git rm --cached *nom_fichier*
